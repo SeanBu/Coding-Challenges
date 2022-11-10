@@ -12,6 +12,7 @@ function disemvowel(str) {
             if(strToAry[i] === vowels[j])
               {
                 strToAry.splice(i,1);
+                i--;
               }
           }
       }
